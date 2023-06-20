@@ -5,7 +5,7 @@ on:
 
 env:
   REGISTRY: ghcr.io
-  IMAGE_NAME: ${{ nextgpt }}
+  IMAGE_NAME: nextgpt
 
 jobs:
   build-and-push-image:
